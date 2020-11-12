@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>457693271120-iojqm6h8ubkhfj016mhtimeu71a7f5l0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.457693271120-iojqm6h8ubkhfj016mhtimeu71a7f5l0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAiH6o8wtGiIdqvKd8zYySiuUEqEw2yM-M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>457693271120</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>MaximMacari.FirebasePhoneAuth</string>
+	<key>PROJECT_ID</key>
+	<string>phoneauth-swift</string>
+	<key>STORAGE_BUCKET</key>
+	<string>phoneauth-swift.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:457693271120:ios:a0422cc8abb775bb8cad55</string>
+	<key>DATABASE_URL</key>
+	<string>https://phoneauth-swift.firebaseio.com</string>
+</dict>
+</plist>

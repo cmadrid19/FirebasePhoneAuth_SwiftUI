@@ -3,23 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E3966A07DB45E24A1420F73 /* Pods_FirebasePhoneAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBB953C7EE8280E6A51BA2D /* Pods_FirebasePhoneAuth.framework */; };
 		9E523ED4255BDE790017A5D7 /* FirebasePhoneAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523ED3255BDE790017A5D7 /* FirebasePhoneAuthApp.swift */; };
 		9E523ED6255BDE790017A5D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523ED5255BDE790017A5D7 /* ContentView.swift */; };
 		9E523ED8255BDE7C0017A5D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E523ED7255BDE7C0017A5D7 /* Assets.xcassets */; };
 		9E523EDB255BDE7C0017A5D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E523EDA255BDE7C0017A5D7 /* Preview Assets.xcassets */; };
+		9E523EE6255BE28A0017A5D7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523EE5255BE28A0017A5D7 /* Login.swift */; };
+		9E523EEA255BE5260017A5D7 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523EE9255BE5260017A5D7 /* LoginViewModel.swift */; };
+		9E523EEF255BE9C90017A5D7 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523EEE255BE9C90017A5D7 /* Countries.swift */; };
+		9E523EF3255BF3110017A5D7 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523EF2255BF3110017A5D7 /* Verification.swift */; };
+		9E523EF7255BFAC60017A5D7 /* CustomNumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523EF6255BFAC60017A5D7 /* CustomNumberPad.swift */; };
+		9E6504E1255D44FD00F7FC20 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6504E0255D44FD00F7FC20 /* AlertView.swift */; };
+		9E6504E4255D4BA000F7FC20 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6504E3255D4BA000F7FC20 /* Home.swift */; };
+		9E6E6F7C255D413000FA6E3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E6F7B255D413000FA6E3B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BBB953C7EE8280E6A51BA2D /* Pods_FirebasePhoneAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebasePhoneAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD3538A4F1CF78AF2F8C84F /* Pods-FirebasePhoneAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebasePhoneAuth.release.xcconfig"; path = "Target Support Files/Pods-FirebasePhoneAuth/Pods-FirebasePhoneAuth.release.xcconfig"; sourceTree = "<group>"; };
+		72896F14E1EF5FDE94DE6811 /* Pods-FirebasePhoneAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebasePhoneAuth.debug.xcconfig"; path = "Target Support Files/Pods-FirebasePhoneAuth/Pods-FirebasePhoneAuth.debug.xcconfig"; sourceTree = "<group>"; };
 		9E523ED0255BDE790017A5D7 /* FirebasePhoneAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebasePhoneAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E523ED3255BDE790017A5D7 /* FirebasePhoneAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhoneAuthApp.swift; sourceTree = "<group>"; };
 		9E523ED5255BDE790017A5D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E523ED7255BDE7C0017A5D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E523EDA255BDE7C0017A5D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E523EDC255BDE7C0017A5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E523EE5255BE28A0017A5D7 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		9E523EE9255BE5260017A5D7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9E523EEE255BE9C90017A5D7 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		9E523EF2255BF3110017A5D7 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		9E523EF6255BFAC60017A5D7 /* CustomNumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNumberPad.swift; sourceTree = "<group>"; };
+		9E6504E0255D44FD00F7FC20 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		9E6504E3255D4BA000F7FC20 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9E6E6F7B255D413000FA6E3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3966A07DB45E24A1420F73 /* Pods_FirebasePhoneAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +59,8 @@
 			children = (
 				9E523ED2255BDE790017A5D7 /* FirebasePhoneAuth */,
 				9E523ED1255BDE790017A5D7 /* Products */,
+				F4CDBB7058697CB8530535FA /* Pods */,
+				B282746CA18B06A7691BA814 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +75,12 @@
 		9E523ED2255BDE790017A5D7 /* FirebasePhoneAuth */ = {
 			isa = PBXGroup;
 			children = (
+				9E523EED255BE9BD0017A5D7 /* Model */,
+				9E523EE4255BDEE30017A5D7 /* ModelView */,
+				9E523EE3255BDED90017A5D7 /* View */,
 				9E523ED3255BDE790017A5D7 /* FirebasePhoneAuthApp.swift */,
 				9E523ED5255BDE790017A5D7 /* ContentView.swift */,
+				9E6E6F7B255D413000FA6E3B /* GoogleService-Info.plist */,
 				9E523ED7255BDE7C0017A5D7 /* Assets.xcassets */,
 				9E523EDC255BDE7C0017A5D7 /* Info.plist */,
 				9E523ED9255BDE7C0017A5D7 /* Preview Content */,
@@ -69,6 +96,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9E523EE3255BDED90017A5D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E523EE5255BE28A0017A5D7 /* Login.swift */,
+				9E523EF2255BF3110017A5D7 /* Verification.swift */,
+				9E523EF6255BFAC60017A5D7 /* CustomNumberPad.swift */,
+				9E6504E0255D44FD00F7FC20 /* AlertView.swift */,
+				9E6504E3255D4BA000F7FC20 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E523EE4255BDEE30017A5D7 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				9E523EE9255BE5260017A5D7 /* LoginViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		9E523EED255BE9BD0017A5D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E523EEE255BE9C90017A5D7 /* Countries.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B282746CA18B06A7691BA814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BBB953C7EE8280E6A51BA2D /* Pods_FirebasePhoneAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4CDBB7058697CB8530535FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72896F14E1EF5FDE94DE6811 /* Pods-FirebasePhoneAuth.debug.xcconfig */,
+				1DD3538A4F1CF78AF2F8C84F /* Pods-FirebasePhoneAuth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E523EDF255BDE7C0017A5D7 /* Build configuration list for PBXNativeTarget "FirebasePhoneAuth" */;
 			buildPhases = (
+				CB591A3BADF9A7249E0348AD /* [CP] Check Pods Manifest.lock */,
 				9E523ECC255BDE790017A5D7 /* Sources */,
 				9E523ECD255BDE790017A5D7 /* Frameworks */,
 				9E523ECE255BDE790017A5D7 /* Resources */,
+				E039656BA52C2D9732D72729 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +202,68 @@
 			files = (
 				9E523EDB255BDE7C0017A5D7 /* Preview Assets.xcassets in Resources */,
 				9E523ED8255BDE7C0017A5D7 /* Assets.xcassets in Resources */,
+				9E6E6F7C255D413000FA6E3B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB591A3BADF9A7249E0348AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebasePhoneAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E039656BA52C2D9732D72729 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebasePhoneAuth/Pods-FirebasePhoneAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebasePhoneAuth/Pods-FirebasePhoneAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebasePhoneAuth/Pods-FirebasePhoneAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E523ECC255BDE790017A5D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E523EF3255BF3110017A5D7 /* Verification.swift in Sources */,
+				9E523EE6255BE28A0017A5D7 /* Login.swift in Sources */,
 				9E523ED6255BDE790017A5D7 /* ContentView.swift in Sources */,
+				9E523EEA255BE5260017A5D7 /* LoginViewModel.swift in Sources */,
+				9E6504E4255D4BA000F7FC20 /* Home.swift in Sources */,
+				9E523EEF255BE9C90017A5D7 /* Countries.swift in Sources */,
+				9E6504E1255D44FD00F7FC20 /* AlertView.swift in Sources */,
 				9E523ED4255BDE790017A5D7 /* FirebasePhoneAuthApp.swift in Sources */,
+				9E523EF7255BFAC60017A5D7 /* CustomNumberPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +388,13 @@
 		};
 		9E523EE0255BDE7C0017A5D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72896F14E1EF5FDE94DE6811 /* Pods-FirebasePhoneAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FirebasePhoneAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YGTHSUB42;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FirebasePhoneAuth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -285,11 +411,13 @@
 		};
 		9E523EE1255BDE7C0017A5D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD3538A4F1CF78AF2F8C84F /* Pods-FirebasePhoneAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FirebasePhoneAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YGTHSUB42;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FirebasePhoneAuth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
